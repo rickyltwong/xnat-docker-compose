@@ -62,3 +62,7 @@ services:
     links:
       - xnat-web
 
+networks:
+  default:
+    name: xnat-shared
+    external: true
